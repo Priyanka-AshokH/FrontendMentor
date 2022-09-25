@@ -1,0 +1,101 @@
+.partnerscontainer {
+    position: relative;
+}
+
+.partnerswrapper {
+    box-sizing : border-box,;
+    display: flex;
+    justify-content: space-between;
+}
+
+.partnerscontent {
+    text-align: left;
+    padding: 30px 50px;
+    width: 38%;
+}
+
+.partnerscontent input {
+    width: 100%;
+    border-radius: 25px;
+    padding: 15px 20px;
+    border: 1px solid hsl(0, 93%, 68%);
+}
+
+.partnerscontent input:focus-visible {
+    outline: none;
+}
+.partnerscontent h2 , span{
+    font-size: 50px;
+    letter-spacing: 15px;
+}
+
+.partnerscontent .partners {
+    color : hsl(0, 93%, 68%);
+}
+
+.partnerscontent .text {
+    color: hsl(0, 36%, 70%);
+    line-height: 30px;
+}
+
+.partnersLogos {
+	width: 55%;
+	overflow: hidden;
+	position: relative;
+}
+
+.inputWrapper {
+    position: relative;
+}
+
+.errorIcon {
+    position: absolute;
+    top: 13px;
+    right: 95px;
+}
+
+.submitIcon {
+    position: absolute;
+    background-color: red;
+    padding-right: 70px;
+    padding-bottom: 26px;
+    border-radius: 25px;
+    left: 367px;
+    top: 1px;
+    right: 0;
+    cursor: pointer;
+    height: 49px;
+}
+
+.submitIcon svg {
+    width: 100%;
+    top: 12px;
+    color: white;
+    right: -37px;
+    cursor: pointer;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+.partnersLogos::before {
+	content: '';
+	left: 0;
+	right: 0;
+	top: 0;
+	height: 100px;
+	position: absolute;
+}
+
+.errorMsg , .succes{
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+.errorMsg {
+    color: red;
+}
+
+.succes {
+    color: green;
+}

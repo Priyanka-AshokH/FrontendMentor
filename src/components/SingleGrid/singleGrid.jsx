@@ -5,7 +5,7 @@ function SingleGrid() {
     <div className={styles.mainWrapper}>
       <div className={styles.joinGrid}>
         <h4>Join our community</h4>
-        <p>Join our community 30-day, hassle-free money back guarantee</p>
+        <p className={styles.heading}>30-day, hassle-free money back guarantee</p>
         <p>
           Gain access to our full library of tutorials along with expert code
           reviews.
@@ -14,15 +14,14 @@ function SingleGrid() {
           Perfect for any developers who are serious about honing their skills.{" "}
         </p>
       </div>
-      <div>
+      <div className={styles.monthySubs}>
         <h4>Monthly Subscription</h4>
-        <p>$29</p>
-        <span>per month</span>
-        <p>Full access for less than $1 a day </p>
+        <p className={styles.dollar}>$29 <span className={styles.perMonth}>per month</span></p>
+        <p className={styles.full}>Full access for less than $1 a day </p>
         <button>Sign Up</button>
       </div>
-      <div>
-        <h4>Why us</h4>
+      <div className={styles.whyUs}>
+        <h4>Why Us</h4>
         <p>
           Tutorials by industry experts Peer & expert code review Coding
           exercises Access to our GitHub repos Community forum Flashcard decks
