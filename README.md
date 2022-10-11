@@ -21,4 +21,4 @@ Netlify Link  : https://6345667a9033b303048cbe85--meek-cascaron-52dd8e.netlify.a
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# frontMentorIntermediate
+
