@@ -4,32 +4,6 @@ import Karma from "./images/icon-karma.svg"
 import Calculator from "./images/icon-calculator.svg"
 
 const FourCard = () => {
-    const cardData = [
-        {
-            title: "Supervisor",
-            subTitle: "Monitors activity to identify project roadblocks",
-            img: Supervisor,
-            color: "hsl(212, 86%, 64%)"
-        },
-        {
-            title: "Team Builder",
-            subTitle: "Scans our talent network to create the optimal team for your project",
-            img: TeamBuilder,
-            color: "hsl(0, 78%, 62%)"
-        },
-        {
-            title: "Karma",
-            subTitle: "Regularly evaluates our talent to ensure quality",
-            img: Karma,
-            color: "hsl(180, 62%, 55%)"
-        },
-        {
-            title: "Calculator",
-            subTitle: "Uses data from past projects to provide better delivery estimates",
-            img: Calculator,
-            color: "hsl(34, 97%, 64%)"
-        }
-    ]
     return (
         <div className="main-container">
             <h1 className="heading-1">Reliable, efficient delivery</h1>

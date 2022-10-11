@@ -57,10 +57,10 @@ const BaseApparel = () => {
                     </div>
                     <div className={styles.partnersLogos}>
                         <div className={styles.partners_list_wrapper}>
-                            <img src={logo} />
+                            <img src={logo} alt="logo"/>
                         </div>
                         <div className={styles.partners_list_wrapper_mobile}>
-                            <img src={Mobilelogo} />
+                            <img src={Mobilelogo} alt="logo"/>
                         </div>
                     </div>
                 </div>
