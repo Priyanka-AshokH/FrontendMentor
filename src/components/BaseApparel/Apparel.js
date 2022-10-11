@@ -1,6 +1,7 @@
 import { useState } from "react";
 import styles from "../BaseApparel/Apparel.module.css";
 import logo from "../BaseApparel/images/hero-desktop.jpg";
+import Mobilelogo from "../BaseApparel/images/hero-mobile.jpg";
 
 const BaseApparel = () => {
     const [errorMsg, setErrorMsg] = useState('')
@@ -55,8 +56,11 @@ const BaseApparel = () => {
                         </div>
                     </div>
                     <div className={styles.partnersLogos}>
-                        <div className="partners-list-wrapper">
+                        <div className={styles.partners_list_wrapper}>
                             <img src={logo} />
+                        </div>
+                        <div className={styles.partners_list_wrapper_mobile}>
+                            <img src={Mobilelogo} />
                         </div>
                     </div>
                 </div>

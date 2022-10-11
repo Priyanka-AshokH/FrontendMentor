@@ -1,8 +1,9 @@
-import './App.css';
 import SingleGrid from "../src/components/SingleGrid/singleGrid";
 import FourCard from './components/FourGrid/fourCard';
 import Rating from './components/RatingComponent/rating';
 import BaseApparel from "./components/BaseApparel/Apparel";
+import SignUpTrial from "./components/IntroComponentSignUp/signUpFreeTrial";
+import './App.css';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Rating />
       <h1 style={{marginTop : "100px", fontSize:"40px"}}>Base Apparel coming soon page </h1>
       <BaseApparel />
+      <h1 style={{marginTop : "100px", fontSize:"40px"}}>Intro component with sign-up form </h1>
+      <SignUpTrial />
     </div>
   );
 }

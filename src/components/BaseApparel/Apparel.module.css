@@ -24,9 +24,9 @@
 .partnerscontent input:focus-visible {
     outline: none;
 }
-.partnerscontent h2 , span{
+.partnerscontent h2 , .partners{
     font-size: 50px;
-    letter-spacing: 15px;
+    /* letter-spacing: 15px; */
 }
 
 .partnerscontent .partners {
@@ -60,7 +60,6 @@
     padding-right: 70px;
     padding-bottom: 26px;
     border-radius: 25px;
-    left: 367px;
     top: 1px;
     right: 0;
     cursor: pointer;
@@ -98,4 +97,34 @@
 
 .succes {
     color: green;
+}
+
+.partners_list_wrapper {
+    display: block;
+}
+
+.partners_list_wrapper_mobile {
+    display: none;
+}
+
+@media(max-width: 768px) { 
+    .partnerswrapper {
+        flex-direction: column;
+    }
+    .partnerscontent {
+        width: 100%;
+        text-align: center;
+    }
+    .partnersLogos {
+        width: 100%;
+    }
+    .partners_list_wrapper {
+        display: none;
+    }
+    .partners_list_wrapper_mobile {
+        display: block;
+    }
+    .partners_list_wrapper_mobile img {
+        width: 100%;
+    }
 }

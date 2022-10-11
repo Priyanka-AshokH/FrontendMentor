@@ -1,0 +1,87 @@
+.trailWrapper {
+    background-color: hsl(0, 100%, 74%);
+    padding: 50px 100px;
+    width: 100%;
+    max-width: 1180px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px auto 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.claimButton {
+    color: white;
+    font-size: 12px;
+    padding: 10px 5px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid  hsl(154, 59%, 51%);
+    background-color: hsl(154, 59%, 51%);
+    cursor: pointer;
+}
+
+.tryWidget {
+    background-color: #4267B2;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    line-height: 22px;
+}
+.try {
+    font-weight: 700;
+}
+.leftWrapper {
+    text-align: left;
+}
+.leftWrapper {
+    width: 50%;
+}
+.leftWrapper .heading{
+    font-size: 32px;
+    font-weight: 600;
+}
+.leftWrapper .subheading {
+    line-height: 25px;
+    font-size: 14px;
+}
+
+.rightWrapper {
+    margin-left: 10%;
+    width: 50%;
+}
+
+.form {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.inputStyle  {
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    outline: none;
+    font-size: 12px;
+    border: 1px solid grey;
+}
+.terms {
+    font-size: 12px;
+    color: lightgrey;
+    line-height: 22px;
+}
+
+@media(max-width: 768px) { 
+    .trailWrapper {
+        flex-direction: column;
+        padding: 20px 20px;
+    }
+    .leftWrapper, .rightWrapper {
+        width: 100%;
+    }
+    .rightWrapper {
+        margin-left: 0;
+    }
+}

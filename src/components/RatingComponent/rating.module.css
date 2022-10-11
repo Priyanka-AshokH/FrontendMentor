@@ -83,3 +83,9 @@
     border: 1px solid hsl(25, 97%, 53%);
     cursor: pointer;
 }
+
+.errorMsg {
+    font-size: 12px;
+    padding-left: 20px;
+    color: red;
+}

@@ -5,6 +5,7 @@ const RatingWidget = () => {
     const [thankYou, setThankYou] = useState(false);
     const [triggerRank, setTriggerRank] = useState(false);
     const [fetchRank, setFetchRank] = useState(0);
+    const [ errorMsg, setErrorMsg] = useState('')
     const numbers = [
         {
             id: 1,
@@ -25,6 +26,10 @@ const RatingWidget = () => {
 
     const handleSubmitButtonClick = () => {
         setThankYou(true)
+        if(fetchRank === 0) {
+            setErrorMsg("Please select the rating !")
+            setThankYou(false)
+        }
     }
 
     const handleRating = (id) => {
@@ -59,6 +64,7 @@ const RatingWidget = () => {
                             }
                         </div>
                         <button className={styles.subBtn} onClick={handleSubmitButtonClick}>Submit</button>
+                        {errorMsg ? <p className={styles.errorMsg}>{errorMsg}</p> : null }
                     </div>
             }
         </div>
